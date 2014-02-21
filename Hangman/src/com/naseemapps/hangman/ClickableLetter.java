@@ -1,16 +1,23 @@
 package com.naseemapps.hangman;
 
+import java.util.ArrayList;
+
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
 public class ClickableLetter extends LinearLayout {
-
+	
+	public static ArrayList<View> gameKeyboard = new ArrayList<View>();
+	
 	public ClickableLetter(Context context, AttributeSet attrs) {
         super(context, attrs);
         
@@ -21,18 +28,24 @@ public class ClickableLetter extends LinearLayout {
             .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(R.layout.letter_key_view, this, true);
 
-//        TextView title = (TextView) getChildAt(0);
+        TextView keyLetter = (TextView) getChildAt(0);
         
-        
-        setBackgroundDrawable(context.getResources().getDrawable(R.drawable.letter_key));
+        TypedArray a = context.obtainStyledAttributes(attrs,
+                R.styleable.LetterKey, 0, 0);
+        String text = a.getString(R.styleable.LetterKey_text);
+        keyLetter.setText(text);
         setClickable(true);
-//        setma
-//        setPadding(10, 10, 10, 10);
-//        setMinWidth(100);
-//        setTextSize(12);
-//        LayoutParams lp = (LayoutParams) getLayoutParams();
-//        lp.width = 10;
-//        setLayoutParams(lp);
+        
+        
+        try {
+			keyLetter.setOnClickListener(Game.getInstance());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+        
+        
+        gameKeyboard.add(keyLetter);
+
         
         
     }

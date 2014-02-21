@@ -1,0 +1,276 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	xmlns:custom="http://schemas.android.com/apk/res/com.naseemapps.hangman"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_below="@+id/bottom_layout"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:gravity="center"  >
+                <TextView
+                    android:id="@+id/game_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_user_input"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:src="@android:drawable/ic_notification_overlay" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/game_current_solution_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_user_input"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+		android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+				android:gravity="center" >
+
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter9" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter8" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter7" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter6" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter5" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter4" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter3" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter2" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter1" />
+
+            </LinearLayout>
+
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+                
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter17" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter16" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter15" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter14" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter13" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter12" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter11" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter10" />
+                                
+            </LinearLayout>
+
+            
+            <!-- 25 - 18 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter25" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter24" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter23" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter22" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter21" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter20" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter19" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter18" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter26" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter27" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter28" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter29" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter30" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter31" />
+                <com.naseemapps.hangman.ClickableLetter
+                    android:id="@+id/key_letter32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    custom:text="@string/letter32" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

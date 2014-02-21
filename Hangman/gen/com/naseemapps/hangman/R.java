@@ -9,6 +9,14 @@ package com.naseemapps.hangman;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int text=0x7f010000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -24,53 +32,58 @@ public final class R {
         public static final int btn_default_small_normal=0x7f020000;
         public static final int btn_default_small_pressed=0x7f020001;
         public static final int btn_keyboard_key_light_normal_holo=0x7f020002;
-        public static final int btn_keyboard_key_light_pressed_holo=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int letter_key=0x7f020005;
-        public static final int letter_key_small=0x7f020006;
-        public static final int tab_unselected_focused_holo=0x7f020007;
+        public static final int btn_keyboard_key_light_normal_holo_correct=0x7f020003;
+        public static final int btn_keyboard_key_light_normal_holo_error=0x7f020004;
+        public static final int btn_keyboard_key_light_pressed_holo=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int letter_key=0x7f020007;
+        public static final int letter_key_small=0x7f020008;
+        public static final int tab_unselected_focused_holo=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f080023;
+        public static final int action_settings=0x7f080025;
         public static final int bottom_layout=0x7f080000;
+        public static final int game_current_solution_tv=0x7f080003;
+        public static final int game_title_tv=0x7f080001;
         public static final int imageView1=0x7f080002;
-        public static final int key_letter1=0x7f08000b;
-        public static final int key_letter10=0x7f080013;
-        public static final int key_letter11=0x7f080012;
-        public static final int key_letter12=0x7f080011;
-        public static final int key_letter13=0x7f080010;
-        public static final int key_letter14=0x7f08000f;
-        public static final int key_letter15=0x7f08000e;
-        public static final int key_letter16=0x7f08000d;
-        public static final int key_letter17=0x7f08000c;
-        public static final int key_letter18=0x7f08001b;
-        public static final int key_letter19=0x7f08001a;
-        public static final int key_letter2=0x7f08000a;
-        public static final int key_letter20=0x7f080019;
-        public static final int key_letter21=0x7f080018;
-        public static final int key_letter22=0x7f080017;
-        public static final int key_letter23=0x7f080016;
-        public static final int key_letter24=0x7f080015;
-        public static final int key_letter25=0x7f080014;
-        public static final int key_letter26=0x7f08001c;
-        public static final int key_letter27=0x7f08001d;
-        public static final int key_letter28=0x7f08001e;
-        public static final int key_letter29=0x7f08001f;
-        public static final int key_letter3=0x7f080009;
-        public static final int key_letter30=0x7f080020;
-        public static final int key_letter31=0x7f080021;
-        public static final int key_letter32=0x7f080022;
-        public static final int key_letter4=0x7f080008;
-        public static final int key_letter5=0x7f080007;
-        public static final int key_letter6=0x7f080006;
-        public static final int key_letter7=0x7f080005;
-        public static final int key_letter8=0x7f080004;
-        public static final int key_letter9=0x7f080003;
-        public static final int textView1=0x7f080001;
+        public static final int key_letter1=0x7f08000c;
+        public static final int key_letter10=0x7f080014;
+        public static final int key_letter11=0x7f080013;
+        public static final int key_letter12=0x7f080012;
+        public static final int key_letter13=0x7f080011;
+        public static final int key_letter14=0x7f080010;
+        public static final int key_letter15=0x7f08000f;
+        public static final int key_letter16=0x7f08000e;
+        public static final int key_letter17=0x7f08000d;
+        public static final int key_letter18=0x7f08001c;
+        public static final int key_letter19=0x7f08001b;
+        public static final int key_letter2=0x7f08000b;
+        public static final int key_letter20=0x7f08001a;
+        public static final int key_letter21=0x7f080019;
+        public static final int key_letter22=0x7f080018;
+        public static final int key_letter23=0x7f080017;
+        public static final int key_letter24=0x7f080016;
+        public static final int key_letter25=0x7f080015;
+        public static final int key_letter26=0x7f08001d;
+        public static final int key_letter27=0x7f08001e;
+        public static final int key_letter28=0x7f08001f;
+        public static final int key_letter29=0x7f080020;
+        public static final int key_letter3=0x7f08000a;
+        public static final int key_letter30=0x7f080021;
+        public static final int key_letter31=0x7f080022;
+        public static final int key_letter32=0x7f080023;
+        public static final int key_letter4=0x7f080009;
+        public static final int key_letter5=0x7f080008;
+        public static final int key_letter6=0x7f080007;
+        public static final int key_letter7=0x7f080006;
+        public static final int key_letter8=0x7f080005;
+        public static final int key_letter9=0x7f080004;
+        public static final int start_game_btn=0x7f080024;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int letter_key_view=0x7f030001;
+        public static final int activity_game=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int letter_key_view=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -199,4 +212,33 @@ public final class R {
          */
         public static final int AppTheme=0x7f060001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a LetterKey.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LetterKey_text com.naseemapps.hangman:text}</code></td><td></td></tr>
+           </table>
+           @see #LetterKey_text
+         */
+        public static final int[] LetterKey = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.naseemapps.hangman.R.attr#text}
+          attribute's value can be found in the {@link #LetterKey} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.naseemapps.hangman:text
+        */
+        public static final int LetterKey_text = 0;
+    };
 }
