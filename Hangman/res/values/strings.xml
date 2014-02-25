@@ -2,10 +2,26 @@
 <resources>
 
     <string name="app_name">لعبة المشنقة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="try_again">حاول مرة ثانية</string>
+    <string name="game_over">حظا اوفر</string>
+    <string name="well_done">احسنت</string>
+    <string name="next_game">استمر</string>
+    <string name="level_label">المرحلة</string>
+    
+    
+    <string name="level">I8Kh0YqqYUy8</string>
+    
+    
+    
+	<string name="wait_for_more_level">مبروك، لقد انهيت جميع المراحل</string>
+	<string name="new_game_restart">هل تريد اللعب مرة اخرى</string>
+	
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
-        <string name="default_user_input">_ _ _ _ _ _</string><!-- 1 -->
+	<string name="default_user_input">_ _ _ _ _ _</string><!-- 1 -->
     
     
     <string name="letter1">ا</string><!-- 1 -->

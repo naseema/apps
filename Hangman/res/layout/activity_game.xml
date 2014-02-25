@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
     tools:context=".MainActivity" >
 
     <LinearLayout
@@ -27,22 +28,116 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+					
+					<LinearLayout
+                    android:id="@+id/help_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/selector"
+                    android:clickable="true"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:gravity="center_vertical">
+                    <View 
+                        
+                        android:layout_width="28dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/help_me"/>
+                    <TextView
+                        android:id="@+id/help_me_remain_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:text=""
+                        android:textSize="12sp"  />
+
+                </LinearLayout>
+                
+	
+                </LinearLayout>
+                
+	
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" >
+					
+                    <TextView
+                        android:id="@+id/level_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="12sp"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dip"
+                        android:text="@string/level_label"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+<View 
+    android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="20dip"
+    />
+<View 
+    android:layout_width="match_parent"
+                android:layout_height="10dip"
+                android:background="@android:color/white"
+    />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                  android:gravity="center"  >
                 <TextView
                     android:id="@+id/game_title_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/default_user_input"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:gravity="center" 
+					android:textStyle="bold"
+                    android:textSize="14sp"/>
             </LinearLayout>
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="200dip"
-                android:src="@android:drawable/ic_notification_overlay" />
+                android:src="@drawable/h0" />
 
-            <LinearLayout
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+		android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center" >
+<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center" >
@@ -55,26 +150,6 @@
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
             </LinearLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-		android:id="@+id/bottom_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-        android:orientation="vertical" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center" >
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" 

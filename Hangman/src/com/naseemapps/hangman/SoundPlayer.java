@@ -56,5 +56,16 @@ public class SoundPlayer {
 		mMediaPlayer = MediaPlayer.create(mContext,R.raw.gameover);
 		mMediaPlayer.start();
 	}
+	
+	
+	public static void playOpenSound() {
+		if (mContext == null)
+			return;
+		
+		mMediaPlayer.stop();
+		mMediaPlayer.release();
+		mMediaPlayer = MediaPlayer.create(mContext,R.raw.open);
+		mMediaPlayer.start();
+	}
 
 }

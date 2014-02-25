@@ -25,170 +25,206 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int btn_default_small_normal=0x7f020000;
-        public static final int btn_default_small_pressed=0x7f020001;
-        public static final int btn_keyboard_key_light_normal_holo=0x7f020002;
-        public static final int btn_keyboard_key_light_normal_holo_correct=0x7f020003;
-        public static final int btn_keyboard_key_light_normal_holo_error=0x7f020004;
-        public static final int btn_keyboard_key_light_pressed_holo=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int letter_key=0x7f020007;
-        public static final int letter_key_small=0x7f020008;
-        public static final int tab_unselected_focused_holo=0x7f020009;
+        public static final int bkgr=0x7f020000;
+        public static final int btn_default_small_normal=0x7f020001;
+        public static final int btn_default_small_pressed=0x7f020002;
+        public static final int btn_keyboard_key_light_normal_holo=0x7f020003;
+        public static final int btn_keyboard_key_light_normal_holo_correct=0x7f020004;
+        public static final int btn_keyboard_key_light_normal_holo_error=0x7f020005;
+        public static final int btn_keyboard_key_light_pressed_holo=0x7f020006;
+        public static final int h0=0x7f020007;
+        public static final int h1=0x7f020008;
+        public static final int h2=0x7f020009;
+        public static final int h3=0x7f02000a;
+        public static final int h4=0x7f02000b;
+        public static final int h5=0x7f02000c;
+        public static final int h6=0x7f02000d;
+        public static final int h7=0x7f02000e;
+        public static final int help_me=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int letter_key=0x7f020011;
+        public static final int letter_key_small=0x7f020012;
+        public static final int selector=0x7f020013;
+        public static final int start_game_1=0x7f020014;
+        public static final int start_game_2=0x7f020015;
+        public static final int start_game_selector=0x7f020016;
+        public static final int tab_unselected_focused_holo=0x7f020017;
     }
     public static final class id {
-        public static final int action_settings=0x7f080025;
-        public static final int bottom_layout=0x7f080000;
-        public static final int game_current_solution_tv=0x7f080003;
-        public static final int game_title_tv=0x7f080001;
-        public static final int imageView1=0x7f080002;
-        public static final int key_letter1=0x7f08000c;
-        public static final int key_letter10=0x7f080014;
-        public static final int key_letter11=0x7f080013;
-        public static final int key_letter12=0x7f080012;
-        public static final int key_letter13=0x7f080011;
-        public static final int key_letter14=0x7f080010;
-        public static final int key_letter15=0x7f08000f;
-        public static final int key_letter16=0x7f08000e;
-        public static final int key_letter17=0x7f08000d;
-        public static final int key_letter18=0x7f08001c;
-        public static final int key_letter19=0x7f08001b;
-        public static final int key_letter2=0x7f08000b;
-        public static final int key_letter20=0x7f08001a;
-        public static final int key_letter21=0x7f080019;
-        public static final int key_letter22=0x7f080018;
-        public static final int key_letter23=0x7f080017;
-        public static final int key_letter24=0x7f080016;
-        public static final int key_letter25=0x7f080015;
-        public static final int key_letter26=0x7f08001d;
-        public static final int key_letter27=0x7f08001e;
-        public static final int key_letter28=0x7f08001f;
-        public static final int key_letter29=0x7f080020;
-        public static final int key_letter3=0x7f08000a;
-        public static final int key_letter30=0x7f080021;
-        public static final int key_letter31=0x7f080022;
-        public static final int key_letter32=0x7f080023;
-        public static final int key_letter4=0x7f080009;
-        public static final int key_letter5=0x7f080008;
-        public static final int key_letter6=0x7f080007;
-        public static final int key_letter7=0x7f080006;
-        public static final int key_letter8=0x7f080005;
-        public static final int key_letter9=0x7f080004;
-        public static final int start_game_btn=0x7f080024;
+        public static final int action_settings=0x7f090028;
+        public static final int bottom_layout=0x7f090000;
+        public static final int game_current_solution_tv=0x7f090006;
+        public static final int game_title_tv=0x7f090004;
+        public static final int help_me=0x7f090001;
+        public static final int help_me_remain_tv=0x7f090002;
+        public static final int imageView1=0x7f090005;
+        public static final int key_letter1=0x7f09000f;
+        public static final int key_letter10=0x7f090017;
+        public static final int key_letter11=0x7f090016;
+        public static final int key_letter12=0x7f090015;
+        public static final int key_letter13=0x7f090014;
+        public static final int key_letter14=0x7f090013;
+        public static final int key_letter15=0x7f090012;
+        public static final int key_letter16=0x7f090011;
+        public static final int key_letter17=0x7f090010;
+        public static final int key_letter18=0x7f09001f;
+        public static final int key_letter19=0x7f09001e;
+        public static final int key_letter2=0x7f09000e;
+        public static final int key_letter20=0x7f09001d;
+        public static final int key_letter21=0x7f09001c;
+        public static final int key_letter22=0x7f09001b;
+        public static final int key_letter23=0x7f09001a;
+        public static final int key_letter24=0x7f090019;
+        public static final int key_letter25=0x7f090018;
+        public static final int key_letter26=0x7f090020;
+        public static final int key_letter27=0x7f090021;
+        public static final int key_letter28=0x7f090022;
+        public static final int key_letter29=0x7f090023;
+        public static final int key_letter3=0x7f09000d;
+        public static final int key_letter30=0x7f090024;
+        public static final int key_letter31=0x7f090025;
+        public static final int key_letter32=0x7f090026;
+        public static final int key_letter4=0x7f09000c;
+        public static final int key_letter5=0x7f09000b;
+        public static final int key_letter6=0x7f09000a;
+        public static final int key_letter7=0x7f090009;
+        public static final int key_letter8=0x7f090008;
+        public static final int key_letter9=0x7f090007;
+        public static final int level_tv=0x7f090003;
+        public static final int start_game_btn=0x7f090027;
     }
     public static final class layout {
         public static final int activity_game=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int letter_key_view=0x7f030002;
+        public static final int cutom_dialog=0x7f030002;
+        public static final int letter_key_view=0x7f030003;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
+    }
+    public static final class raw {
+        public static final int button=0x7f040000;
+        public static final int button_correct=0x7f040001;
+        public static final int button_wrong=0x7f040002;
+        public static final int gameover=0x7f040003;
+        public static final int open=0x7f040004;
+        public static final int victory=0x7f040005;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int default_user_input=0x7f050003;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f06000b;
+        public static final int app_name=0x7f060000;
+        public static final int default_user_input=0x7f06000d;
+        public static final int game_over=0x7f060004;
+        public static final int hello_world=0x7f06000c;
         /**  1 
          */
-        public static final int letter1=0x7f050004;
+        public static final int letter1=0x7f06000e;
         /**  9 
          */
-        public static final int letter10=0x7f05000d;
+        public static final int letter10=0x7f060017;
         /**  10 
          */
-        public static final int letter11=0x7f05000e;
+        public static final int letter11=0x7f060018;
         /**  11 
          */
-        public static final int letter12=0x7f05000f;
+        public static final int letter12=0x7f060019;
         /**  12 
          */
-        public static final int letter13=0x7f050010;
+        public static final int letter13=0x7f06001a;
         /**  13 
          */
-        public static final int letter14=0x7f050011;
+        public static final int letter14=0x7f06001b;
         /**  14 
          */
-        public static final int letter15=0x7f050012;
+        public static final int letter15=0x7f06001c;
         /**  15 
          */
-        public static final int letter16=0x7f050013;
+        public static final int letter16=0x7f06001d;
         /**  16 
          */
-        public static final int letter17=0x7f050014;
+        public static final int letter17=0x7f06001e;
         /**  17 
          */
-        public static final int letter18=0x7f050015;
+        public static final int letter18=0x7f06001f;
         /**  18 
          */
-        public static final int letter19=0x7f050016;
+        public static final int letter19=0x7f060020;
         /**  1 
          */
-        public static final int letter2=0x7f050005;
+        public static final int letter2=0x7f06000f;
         /**  19 
          */
-        public static final int letter20=0x7f050017;
+        public static final int letter20=0x7f060021;
         /**  20 
          */
-        public static final int letter21=0x7f050018;
+        public static final int letter21=0x7f060022;
         /**  21 
          */
-        public static final int letter22=0x7f050019;
+        public static final int letter22=0x7f060023;
         /**  22 
          */
-        public static final int letter23=0x7f05001a;
+        public static final int letter23=0x7f060024;
         /**  23 
          */
-        public static final int letter24=0x7f05001b;
+        public static final int letter24=0x7f060025;
         /**  24 
          */
-        public static final int letter25=0x7f05001c;
+        public static final int letter25=0x7f060026;
         /**  25 
          */
-        public static final int letter26=0x7f05001d;
+        public static final int letter26=0x7f060027;
         /**  26 
          */
-        public static final int letter27=0x7f05001e;
+        public static final int letter27=0x7f060028;
         /**  27 
          */
-        public static final int letter28=0x7f05001f;
+        public static final int letter28=0x7f060029;
         /**  28 
          */
-        public static final int letter29=0x7f050020;
+        public static final int letter29=0x7f06002a;
         /**  2 
          */
-        public static final int letter3=0x7f050006;
+        public static final int letter3=0x7f060010;
         /**  29 
          */
-        public static final int letter30=0x7f050021;
+        public static final int letter30=0x7f06002b;
         /**  30 
          */
-        public static final int letter31=0x7f050022;
+        public static final int letter31=0x7f06002c;
         /**  31 
          */
-        public static final int letter32=0x7f050023;
+        public static final int letter32=0x7f06002d;
         /**  3 
          */
-        public static final int letter4=0x7f050007;
+        public static final int letter4=0x7f060011;
         /**  4 
          */
-        public static final int letter5=0x7f050008;
+        public static final int letter5=0x7f060012;
         /**  5 
          */
-        public static final int letter6=0x7f050009;
+        public static final int letter6=0x7f060013;
         /**  6 
          */
-        public static final int letter7=0x7f05000a;
+        public static final int letter7=0x7f060014;
         /**  7 
          */
-        public static final int letter8=0x7f05000b;
+        public static final int letter8=0x7f060015;
         /**  8 
          */
-        public static final int letter9=0x7f05000c;
+        public static final int letter9=0x7f060016;
+        public static final int level=0x7f060008;
+        public static final int level_label=0x7f060007;
+        public static final int new_game_restart=0x7f06000a;
+        public static final int next_game=0x7f060006;
+        public static final int no=0x7f060002;
+        public static final int try_again=0x7f060003;
+        public static final int wait_for_more_level=0x7f060009;
+        public static final int well_done=0x7f060005;
+        public static final int yes=0x7f060001;
     }
     public static final class style {
         /** 
@@ -206,11 +242,11 @@ containing a value of this type.
     
  API 11 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
     public static final class styleable {
         /** Attributes that can be used with a LetterKey.
