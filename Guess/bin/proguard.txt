@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:32
+-keep class com.naseemapps.guess.GameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.naseemapps.guess.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:105
+# onClick res/layout/activity_main.xml #generated:40
+# onClick res/layout/activity_main.xml #generated:52
+# onClick res/layout/activity_main.xml #generated:90
+-keepclassmembers class * { *** onClick(...); }
+

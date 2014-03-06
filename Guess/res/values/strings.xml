@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Guess</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="defaut_letter">B</string>
+    <string name="help_me_remove_letter">Remove Letter</string>
+    <string name="help_me_solve">Reveal a letter</string>
+    <string name="continue_next_game">Next level</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="finish_all_levels">Stay tuned for more level</string>
+    <string name="play_again">Play again</string>
+    <string name="play">Play</string>
+    <string name="help">Help</string>
+    <string name="back">Back</string>
+    <string name="about">About</string>
+    <string name="rate_us">Rate us!</string>
+    <string name="well_done">Well done</string>
+    <string name="the_answer_is">The answer is</string>
+    <string name="you_have">You have </string>
+    <string name="game_description">Try to recognize the image from a close/partial view.</string>
+    <string name="images_policy">All the images in this App was designed and created
+    by myself or was taken from a free licence source, in case  you found image that belongs
+     to you please contact us at naseem.apps@gmail.com, then it instantly will  be removed.</string>
+    
+    
+    
+</resources>

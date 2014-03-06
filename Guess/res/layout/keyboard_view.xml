@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+
+                <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                                    android:gravity="center"
+					android:id="@+id/help_remove_letter"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_help_l"
+                    android:clickable="true"
+                    android:minWidth="50dip"
+                    android:orientation="horizontal" >
+
+                    <View 
+                        
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/ic_menu_clear_playlist"/>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:text="@string/help_me_remove_letter" />
+            </LinearLayout>
+
+<View
+     android:layout_width="1dip"
+     android:layout_height="match_parent"
+    />
+                <LinearLayout
+                    android:id="@+id/help_add_letter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_help_r"
+                    android:clickable="true"
+                    android:minWidth="50dip"
+                    android:orientation="horizontal" 
+                    android:gravity="center">
+
+                    <View 
+                        
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/ic_menu_view"/>
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:text="@string/help_me_solve" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/current_user_sol_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="38dip"
+            android:gravity="center" 
+            android:orientation="horizontal">
+            
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/Button05"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button04"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button03"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button02"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button01"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button12"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/Button08"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button09"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button07"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button11"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button10"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+
+                <Button
+                    android:id="@+id/Button06"
+                    style="@style/KeyboardKeyLetter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/defaut_letter" />
+            </LinearLayout>
+        </LinearLayout>
+ 	<LinearLayout
+            android:id="@+id/clear_del_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/letter_key"
+            android:clickable="true"
+             >
+            <View android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sym_keyboard_feedback_delete"/>
+             </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
